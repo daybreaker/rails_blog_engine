@@ -19,13 +19,13 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Rails 3.1.
-  s.add_dependency "rails", "~> 3.1.0"
+  s.add_dependency "rails", "~> 3.2.0"
 
   # Asset pipeline.  We use all the standard gems plus HAML.
-  s.add_dependency "jquery-rails", "~> 1.0"
-  s.add_dependency "sass-rails", "~> 3.1"
+  s.add_dependency "jquery-rails", "~> 2.1"
+  s.add_dependency "sass-rails", "~> 3.2"
   s.add_dependency "coffee-script", "~> 2.2"
-  s.add_dependency "haml", "~> 3.1"
+  s.add_dependency "haml"
 
   # Pagination.
   s.add_dependency "kaminari", "~> 0.12.4"
