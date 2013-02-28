@@ -40,7 +40,7 @@ class RailsBlogEngine::InstallGenerator < Rails::Generators::Base
 
   def register_stylesheets
     in_root do
-      inject_into_file("app/assets/stylesheets/application.css",
+      inject_into_file("app/assets/stylesheets/application.scss",
                        " *= require rails_blog_engine\n",
                        :before => /^\*\//)
     end
