@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency "haml"
 
   # Pagination.
-  s.add_dependency "kaminari", "~> 0.12.4"
+  s.add_dependency "kaminari", "~> 0.14"
 
   # User accounts and authentication.
   s.add_dependency "cancan", "~> 1.6"
